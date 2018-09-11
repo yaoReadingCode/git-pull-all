@@ -144,9 +144,10 @@ module.exports = function(parent) {
           async.each(trackingRepos, gitPull, function(err) {
             if (err) {
               console.log(err.message);
-              return;
-            }
+              
+            }else{
             console.log('Done!');
+            }
           });
         });
       });
