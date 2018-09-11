@@ -1,6 +1,6 @@
 {
   "name": "git-pull-all",
-  "version": "0.1.4",
+  "version": "10.0.0",
   "description": "Concurrent git pull executor for multiple git repositories.",
   "bin": {
     "git-pull-all": "cli.js"
@@ -14,7 +14,7 @@
   "devDependencies": {
     "jshint": "^2.6.0"
   },
-  "repostitory": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/tatsuyaoiw/git-pull-all.git"
   },
